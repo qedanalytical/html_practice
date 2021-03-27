@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Register</title>
+</head>
+
+<body>
+
+<!-- <div></div> can be used to separate sections of the page into container groups-->
+<!-- <span></span> can be used to separate INLINE sections  of the page into container groups-->
+
+	<form method="POST">
+		First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" required="TRUE" name="email"><br>
+		Password: <input type="password" required="TRUE" minlength="5" name="password"><br>
+		Birthday: <input type="date" required name="birthday"><br>
+		Gender: <br>
+		<input type="radio" name="Gender" value="Male">Male<br>
+		<input type="radio" name="Gender" value="Female">Female<br>
+		<input type="radio" name="Gender" value="Other">Other<br>
+		Pets:<br>
+		<input type="checkbox" name="cat">Cat<br>
+		<input type="checkbox"name="dog">Dog<br>
+		Cars: <br>
+			<select name="cars">
+				<option value="Volvo">Volvo</option>
+				<option value="Audi">Audi</option>
+			</select><br>
+		<input type="submit" value="Register!">
+		<input type="reset">
+	</form>
+	
+</body>
+
+</html>
+
+
+
+
